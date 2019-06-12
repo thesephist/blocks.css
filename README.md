@@ -14,3 +14,5 @@ blocks.css supports theming. By default, Blocks are turquoise. (Why? because it'
 
 Check out the [documentation](https://thesephist.github.io/blocks.css/) for the full details.
 
+[![Edit on repl.it](https://repl-badge.jajoosam.repl.co/edit.png)](https://repl.it/github/https://github.com/thesephist/blocks.css?lang=html&ref=button)
+
