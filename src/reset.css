@@ -11,6 +11,7 @@ body {
 input,
 textarea {
     font-size: 1em;
+    box-sizing: border-box;
     padding: 6px 8px;
 }
 
@@ -26,6 +27,7 @@ kbd,
 pre {
     font-family: 'Menlo', 'Monaco', monospace;
     border-radius: 3px;
+    box-sizing: border-box;
     padding: 2px 4px 1px 4px;
     background: rgba(0, 0, 0, .1);
 }

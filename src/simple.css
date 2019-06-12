@@ -7,6 +7,24 @@ main {
     color: #222;
 }
 
+@media only screen and (max-width: 824px) {
+    main {
+        margin: 24px 12px;
+        width: calc(100% - 24px);
+    }
+    iframe {
+        width: 90vw;
+        height: 56vw;
+    }
+    .preWrapper {
+        width: 100%;
+    }
+    pre {
+        width: 100%;
+        overflow-x: auto;
+    }
+}
+
 input,
 textarea {
     width: 100%;
