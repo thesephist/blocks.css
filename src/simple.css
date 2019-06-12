@@ -82,8 +82,8 @@ input {
 }
 
 .searchBlock .searchButton {
-    height: 40px;
-    line-height: 24px;
+    height: 36px;
+    line-height: 18px;
 }
 
 .color.themed {
