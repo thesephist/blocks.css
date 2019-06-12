@@ -1,3 +1,6 @@
+# blocks.css ignores
+dist/
+
 # Logs
 logs
 *.log

@@ -1,9 +1,21 @@
 {
-  "name": "blocks.css",
-  "version": "0.1.0",
-  "description": "Add some dimension to your page with blocks",
-  "main": "/src/blocks.css",
-  "repository": "git@github.com:thesephist/blocks.css.git",
-  "author": "Linus Lee <linus@thesephist.com>",
-  "license": "MIT"
+    "name": "blocks.css",
+    "version": "0.1.0",
+    "description": "Add some dimension to your page with blocks",
+    "main": "/src/blocks.css",
+    "repository": "git@github.com:thesephist/blocks.css.git",
+    "author": "Linus Lee <linus@thesephist.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "rollup --config rollup.config.js",
+        "clean": "git clean -fxd"
+    },
+    "files": [
+        "src",
+        "dist"
+    ],
+    "devDependencies": {
+        "rollup": "^1.15.1",
+        "rollup-plugin-postcss": "^2.0.3"
+    }
 }
