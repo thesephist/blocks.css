@@ -8,7 +8,8 @@
     "license": "MIT",
     "scripts": {
         "build": "rollup --config rollup.config.js",
-        "clean": "git clean -fxd"
+        "clean": "git clean -fxd",
+        "prepublishOnly": "yarn build"
     },
     "files": [
         "src",

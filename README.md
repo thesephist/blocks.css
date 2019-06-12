@@ -1,8 +1,10 @@
-# blocks.css
+# blocks.css ☕️
 
 Add some dimension to your page with blocks 🚀
 
-You can check out examples and get started with **blocks.css** at the [GitHub Page](https://thesephist.github.io/blocks.css/).
+You can check out examples and get started with **blocks.css** at the [GitHub Page 📖](https://thesephist.github.io/blocks.css/). Here's what blocks.css UI looks like, from the documentation.
+
+![blocks.css sample](sample.jpg)
 
 ## Summary
 
@@ -15,4 +17,3 @@ blocks.css supports theming. By default, Blocks are turquoise. (Why? because it'
 Check out the [documentation](https://thesephist.github.io/blocks.css/) for the full details.
 
 [![Edit on repl.it](https://repl-badge.jajoosam.repl.co/edit.png)](https://repl.it/github/https://github.com/thesephist/blocks.css?lang=html&ref=button)
-
