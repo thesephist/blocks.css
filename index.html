@@ -1,0 +1,135 @@
+<title>blocks.css</title>
+
+<link rel="stylesheet" href="/src/reset.css" />
+<link rel="stylesheet" href="/src/blocks.css" />
+<link rel="stylesheet" href="/src/simple.css" />
+
+<main>
+
+    <h1>☕️ blocks.css</h1>
+
+    <p><a href="https://github.com/thesephist/blocks.css">blocks.css</a> adds a layer of dimension to your web elements. It's light enough that it takes no time to set up or load, but interesting enough that it can serve as the only major CSS on the page.</p>
+
+    <h2>Demo</h2>
+
+    <p>Here's <a href="https://beta.codeframe.co">Codeframe</a>, an in-browser code editor and development environment built with blocks.css. You can also check out <a href="https://zerotocode.org">Zero to Code</a> and <a href="http://lyrics.rip">Lyrics.rip</a> for more examples of blocks.css websites.</p>
+
+    <div class="liveEditorContainer fixed wrapper block">
+        <iframe src="https://beta.codeframe.co/welcome?from=blocks.css" frameborder="0" class="liveEditor"></iframe>
+    </div>
+
+    <h2>Basics</h2>
+
+    <p>This is a blocky button. It's interactive –– try hovering and clicking on it.</p>
+    <button class="block">Hello, World!</button>
+
+    <p>You can make any element blocky by giving it the class <code>block</code>.</p>
+
+    <pre>&lt;button class="block"&gt;Hello, World!&lt;/button&gt;</pre>
+
+    <h3>Accents</h3>
+
+    <p>This is an <em>accent</em> button. You can make a block accented with the class <code>accent</code>.</p>
+    <button class="accent block">I'm so fancy!</button>
+
+    <h3>Fixed blocks</h3>
+
+    <p>This is a <em>fixed</em> button, which means it won't respond to any of your inputs or interactions. You can make a block fixed with the class <code>fixed</code>.</p>
+    <button class="fixed block">I'm not moving.</button>
+
+    <h3>Wrapper blocks</h3>
+
+    <p>Sometimes, you want to blockify an element like <code>img</code> or <code>input</code>. But these elements can't have children like <code>::before</code> and <code>::after</code> elements, so blocks.css can't work its magic. Instead you'll have to wrap them in a <em>wrapper block</em>, using the <code>wrapper</code> class, like this. (The wrapper class removes padding in the block.)</p>
+    <div class="wrapper block pictureWrapper">
+        <img class="picture" src="https://linus.zone/pic" alt="Linus's picture">
+    </div>
+
+    <h3>Inline blocks</h3>
+
+    <p>Lastly, sometimes you may want to place a block <em>inline</em>, or in the middle of a line of text. You can do so with an <em>inline</em> block, by adding the class <code>inline</code>. Then your blocks can be in the middle of text, <span class="inline block">like this</span>.</p>
+
+    <h2>Core components</h2>
+
+    <p>We've only looked at buttons so far, but anything can be blocky. Here are a few examples.</p>
+
+    <p>These are all just created by either adding the <code>block</code> class on a normal HTML element, or by wrapping normal HTML elements in <code>&lt;div class="wrapper div"&gt;&lt;/div&gt;</code>.</p>
+
+    <div class="searchBlock">
+        <div class="fixed wrapper block">
+            <input type="text" value="This is a blocky input" placeholder="Type something..."/>
+        </div>
+        <div class="accent block searchButton">Go!</div>
+    </div>
+
+    <div class="fixed wrapper block">
+        <pre>This is a blocky code block (inside a wrapper)</pre>
+    </div>
+
+    <div class="fixed wrapper block">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JLf9q36UsBk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="card fixed block">
+        <h2>This is a blocky card</h2>
+        <p>... that contains many other elements</p>
+        <button class="block">Like another blocky button</button>
+        <button class="accent block">And an accented button</button>
+    </div>
+
+    <h2>Theming</h2>
+
+    <p>You can theme button styles by customizing the colors, using <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/--*">CSS custom properties</a>.</p>
+
+    <p>There are four variables that blocks.css uses:</p>
+
+    <ul>
+        <li><p><code>--block-text-color</code> determines the color of text, and the border around the block and its shadow</p></li>
+        <li><p><code>--block-background-color</code> is the color of the button background</p></li>
+        <li><p><code>--block-accent-color</code> is the background color of accented buttons</p></li>
+        <li><p><code>--block-shadow-color</code> is the fill color of the shadow</p></li>
+    </ul>
+
+    <p>Here's a more colorful palette, by changing the <code>--block-accent-color</code> within just this div.</p>
+
+    <div class="color themed">
+        <button class="accent block">Hello, World!</button>
+        <div class="searchBlock">
+            <div class="fixed wrapper block">
+                <input type="text" value="This is a blocky input" placeholder="Type something..."/>
+            </div>
+            <div class="accent block searchButton">Go!</div>
+        </div>
+
+        <div class="card fixed block">
+            <h2>This is a blocky card</h2>
+            <p>... that contains many other elements</p>
+            <button class="block">Like another blocky button</button>
+            <button class="accent block">And an accented button</button>
+        </div>
+
+    </div>
+
+    <p>This is a dark theme, made possible by setting the text, background, and shadow colors to be their inverses.</p>
+
+    <div class="dark themed">
+        <button class="block">Hello, World!</button>
+        <div class="searchBlock">
+            <div class="fixed wrapper block">
+                <input type="text" value="This is a blocky input" placeholder="Type something..."/>
+            </div>
+            <div class="accent block searchButton">Go!</div>
+        </div>
+
+        <div class="card fixed block">
+            <h2>This is a blocky card</h2>
+            <p>... that contains many other elements</p>
+            <button class="block">Like another blocky button</button>
+            <button class="accent block">And an accented button</button>
+        </div>
+
+    </div>
+
+    <p><strong>blocks.css</strong> is made by <a href="https://linus.zone/now">Linus</a>. Find me at <a href="https://github.com/thesephist">@thesephist</a> anywhere on the web.</p>
+
+</main>
+

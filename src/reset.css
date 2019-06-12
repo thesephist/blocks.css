@@ -1,0 +1,48 @@
+/* Basic CSS reset */
+
+html,
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    color: #222;
+    background: #f8f8f8;
+}
+
+input,
+textarea {
+    font-size: 1em;
+    padding: 6px 8px;
+}
+
+button,
+code,
+kbd,
+pre {
+    font-size: 1em;
+}
+
+code,
+kbd,
+pre {
+    font-family: 'Menlo', 'Monaco', monospace;
+    border-radius: 3px;
+    padding: 2px 4px 1px 4px;
+    background: rgba(0, 0, 0, .1);
+}
+
+pre {
+    padding: 8px 12px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+a {
+    color: #222;
+}
+
+a:hover {
+    color: #666;
+}
+

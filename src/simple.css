@@ -1,0 +1,90 @@
+/* Extra styles to make the demo look nicer.
+ * Feel free to look around! */
+
+main {
+    margin: 24px auto;
+    max-width: 800px;
+    color: #222;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+h2 {
+    margin-top: 32px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #222;
+}
+
+h2:first-child {
+    margin-top: 8px;
+}
+
+h3 {
+    margin-top: 28px;
+    font-weight: normal;
+}
+
+a {
+    font-weight: bold;
+}
+
+input {
+    border: 0;
+}
+
+.liveEditorContainer {
+    width: 100%;
+    min-height: 380px;
+    height: 40vh;
+}
+
+.liveEditorContainer iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.picture {
+    height: 250px;
+    width: 250px;
+}
+
+.themed {
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+
+.searchBlock {
+    display: flex;
+    flex-drection: row;
+    align-items: center;
+}
+
+.searchBlock .searchButton {
+    height: 40px;
+    line-height: 24px;
+}
+
+.color.themed {
+    --block-accent-color: #3a5ec5;
+
+    background: #abcdef;
+}
+
+.dark.themed {
+    --block-text-color: #f8f8f8;
+    --block-background-color: #222;
+    --block-accent-color: #f2d12e;
+    --block-shadow-color: #555;
+
+    background: #444;
+}
+
+.dark.themed input {
+    color: var(--block-text-color);
+    background: var(--block-background-color);
+}
+
