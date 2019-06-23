@@ -92,6 +92,10 @@ body {
     outline: none;
 }
 
+.block.fixed {
+    cursor: initial;
+}
+
 /* FIXED STYLES */
 .block.fixed:hover,
 .block.fixed:hover::before,
