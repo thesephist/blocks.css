@@ -24,11 +24,11 @@ Check out the [documentation](https://thesephist.github.io/blocks.css/) for the 
 
 ## Built with blocks.css
 
-Using **blocks.css** on your website or app? Make a pull request to add yours to the list!
+Using **blocks.css** in your website or app? Make a pull request to add yours to the list!
 
 - [Codeframe](https://beta.codeframe.co)
 - [Zero to Code](https://zerotocode.org)
-- [Lyrics.rip](phttps://genius.com/a/a-teen-programmer-built-a-tool-called-lyrics-rip-to-generate-fake-lyrics-for-your-favorite-artists)
+- [Lyrics.rip](https://genius.com/a/a-teen-programmer-built-a-tool-called-lyrics-rip-to-generate-fake-lyrics-for-your-favorite-artists)
 - [Ink programming language sandbox](https://linus.zone/eval)
 
-[![Edit on repl.it](https://repl-badge.jajoosam.repl.co/edit.png)](https://repl.it/github/https://github.com/thesephist/blocks.css?lang=html&ref=button)
+[![Edit on Repl.it](https://repl-badge.jajoosam.repl.co/edit.png)](https://repl.it/github/https://github.com/thesephist/blocks.css?lang=html&ref=button)
