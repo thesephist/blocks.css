@@ -1,0 +1,124 @@
+/* util.css
+ *  custom utility CSS library for projects by @thesephist */
+
+/* margins */
+
+.m0 {margin: 0}
+
+.mt0, .my0 {margin-top: 0}
+.mt1, .my1 {margin-top: .25rem}
+.mt2, .my2 {margin-top: .5rem}
+.mt3, .my3 {margin-top: .75rem}
+.mt4, .my4 {margin-top: 1.5rem}
+.mt5, .my5 {margin-top: 2.25rem}
+.mt6, .my6 {margin-top: 3.25rem}
+
+.mb0, .my0 {margin-bottom: 0}
+.mb1, .my1 {margin-bottom: .25rem}
+.mb2, .my2 {margin-bottom: .5rem}
+.mb3, .my3 {margin-bottom: .75rem}
+.mb4, .my4 {margin-bottom: 1.5rem}
+.mb5, .my5 {margin-bottom: 2.25rem}
+.mb6, .my6 {margin-bottom: 3.25rem}
+
+.ml0, .mx0 {margin-left: 0}
+.ml1, .mx1 {margin-left: .25rem}
+.ml2, .mx2 {margin-left: .5rem}
+.ml3, .mx3 {margin-left: .75rem}
+.ml4, .mx4 {margin-left: 1.5rem}
+.ml5, .mx5 {margin-left: 2.25rem}
+.ml6, .mx6 {margin-left: 3.25rem}
+
+.mr0, .mx0 {margin-right: 0}
+.mr1, .mx1 {margin-right: .25rem}
+.mr2, .mx2 {margin-right: .5rem}
+.mr3, .mx3 {margin-right: .75rem}
+.mr4, .mx4 {margin-right: 1.5rem}
+.mr5, .mx5 {margin-right: 2.25rem}
+.mr6, .mx6 {margin-right: 3.25rem}
+
+/* paddings */
+
+.p0 {padding: 0}
+
+.pt0, .py0 {padding-top: 0}
+.pt1, .py1 {padding-top: .25rem}
+.pt2, .py2 {padding-top: .5rem}
+.pt3, .py3 {padding-top: .75rem}
+.pt4, .py4 {padding-top: 1rem}
+
+.pb0, .py0 {padding-bottom: 0}
+.pb1, .py1 {padding-bottom: .25rem}
+.pb2, .py2 {padding-bottom: .5rem}
+.pb3, .py3 {padding-bottom: .75rem}
+.pb4, .py4 {padding-bottom: 1rem}
+
+.pl0, .px0 {padding-left: 0}
+.pl1, .px1 {padding-left: .25rem}
+.pl2, .px2 {padding-left: .5rem}
+.pl3, .px3 {padding-left: .75rem}
+.pl4, .px4 {padding-left: 1rem}
+
+.pr0, .px0 {padding-right: 0}
+.pr1, .px1 {padding-right: .25rem}
+.pr2, .px2 {padding-right: .5rem}
+.pr3, .px3 {padding-right: .75rem}
+.pr4, .px4 {padding-right: 1rem}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {font-weight: 400}
+.bold {font-weight: bold}
+.clean {text-decoration: none}
+.underline {text-decoration: underline}
+.f0 {font-size: .75rem}
+.f1 {font-size: 1rem}
+.f2 {font-size: 1.25rem}
+.f3 {font-size: 1.6rem}
+.f4 {font-size: 2rem}
+.f5 {font-size: 3rem}
+.text-start {text-align: start}
+.text-end {text-align: end}
+.text-center {text-align: center}
+
+/* flex & layout */
+
+.flex {display: flex}
+.flex-row {flex-direction: row}
+.flex-column {flex-direction: column}
+.flex-wrap {flex-wrap: wrap}
+.align-center {align-items: center}
+.align-start {align-items: flex-start}
+.align-end {align-items: flex-end}
+.justify-center {justify-content: center}
+.justify-start {justify-content: flex-start}
+.justify-end {justify-content: flex-end}
+.fill, .fill-width {width: 100%}
+.fill, .fill-height {height: 100%}
+
+/* page widths */
+
+.page-xs {max-width: 480px}
+.page-s {max-width: 600px}
+.page-m {max-width: 800px}
+.page-l {max-width: 1200px}
+.page-xl {max-width: 1600px}
+
+/* shadows */
+
+.shadow1 {box-shadow: 0 2px 3px rgba(0, 0, 0, .36)}
+.shadow2 {box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .34)}
+.shadow3 {box-shadow: 0 4px 7px -1px rgba(0, 0, 0, .32)}
+.shadow4 {box-shadow: 0 5px 9px -2px rgba(0, 0, 0, .3)}
+.shadow5 {box-shadow: 0 7px 12px -3px rgba(0, 0, 0, .28)}
+
+/* other utility */
+
+.borderless {border: 0 solid transparent}
+.rounded {border-radius: 4px}
+.block {display: block}
+.inline-block {display: inline-block}
+.inline {display: inline}
+.hidden {display: none}
+.pointer {cursor: pointer}
+.auto-center {margin-left: auto; margin-right: auto}

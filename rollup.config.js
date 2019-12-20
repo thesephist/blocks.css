@@ -3,6 +3,7 @@ import postcss from 'rollup-plugin-postcss'
 const bundleNames = [
     'blocks',
     'reset',
+    'util',
 ];
 
 const configs = bundleNames.map(name => {
