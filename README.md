@@ -26,9 +26,10 @@ Check out the [documentation](https://thesephist.github.io/blocks.css/) for the 
 
 Using **blocks.css** in your website or app? Make a pull request to add yours to the list!
 
-- [Codeframe](https://beta.codeframe.co)
-- [Zero to Code](https://zerotocode.org)
-- [Lyrics.rip](https://genius.com/a/a-teen-programmer-built-a-tool-called-lyrics-rip-to-generate-fake-lyrics-for-your-favorite-artists)
-- [Ink programming language sandbox](https://linus.zone/eval)
+- [Codeframe](https://beta.codeframe.co): an in-browser code editor and playground
+- [Read.gift](https://read.gift): an awesome service to give and receive the gift of books
+- [Lyrics.rip](https://lyrics.rip): uses Markov chains to generate lyrics for any artist with the Genius API
+- [ZeroToCode.org](https://zerotocode.org): a place for beginner coders to learn to make stuff on the web
+- [Ink programming language sandbox](https://linus.zone/eval): a sandboxed playground for the [Ink programming language](https://github.com/thesephist/ink)
 
 [![Edit on Repl.it](https://repl-badge.jajoosam.repl.co/edit.png)](https://repl.it/github/https://github.com/thesephist/blocks.css?lang=html&ref=button)
