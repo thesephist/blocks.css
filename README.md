@@ -28,7 +28,7 @@ Using **blocks.css** in your website or app? Make a pull request to add yours to
 
 - [Codeframe](https://beta.codeframe.co): an in-browser code editor and playground
 - [Read.gift](https://read.gift): an awesome service to give and receive the gift of books
-- [Plume.chat)(https://plume.chat)]: a small in-memory real time chat server with Go and WebSockets
+- [Plume.chat](https://plume.chat): a small in-memory real time chat server with Go and WebSockets
 - [Lyrics.rip](https://lyrics.rip): uses Markov chains to generate lyrics for any artist with the Genius API
 - [ZeroToCode.org](https://zerotocode.org): a place for beginner coders to learn to make stuff on the web
 - [Ink programming language sandbox](https://linus.zone/eval): a sandboxed playground for the [Ink programming language](https://github.com/thesephist/ink)
