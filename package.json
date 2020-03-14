@@ -16,7 +16,7 @@
         "dist"
     ],
     "devDependencies": {
-        "rollup": "^1.28.0",
-        "rollup-plugin-postcss": "^2.0.3"
+        "rollup": "^2.0.6",
+        "rollup-plugin-postcss": "^2.4.1"
     }
 }

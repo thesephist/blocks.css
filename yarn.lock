@@ -2,25 +2,10 @@
 # yarn lockfile v1
 
 
-"@types/estree@*":
-  version "0.0.40"
-  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.40.tgz#0e6cb9b9bbd098031fa19e4b4e8131bc70e5de13"
-  integrity sha512-p3KZgMto/JyxosKGmnLDJ/dG5wf+qTRMUjHJcspC2oQKa4jP7mz+tv0ND56lLBu3ojHlhzY33Ol+khLyNmilkA==
-
-"@types/node@*":
-  version "12.12.14"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.14.tgz#1c1d6e3c75dba466e0326948d56e8bd72a1903d2"
-  integrity sha512-u/SJDyXwuihpwjXy7hOOghagLEV1KdAST6syfnOk6QZAMzZuWZqXy5aYYZbh8Jdpd4escVFP0MvftHNDb9pruA==
-
 "@types/q@^1.5.1":
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
-
-acorn@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.0.tgz#949d36f2c292535da602283586c2477c57eb2d6c"
-  integrity sha512-kL5CuoXA/dgxlBbVrflsflzQ3PAas7RYZB52NOm/6839iVYJgKMJ3cQJD+t2i5+qFa8h3MDpEOJiS64E8JLnSQ==
 
 alphanum-sort@^1.0.0:
   version "1.0.2"
@@ -441,6 +426,11 @@ fastparse@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
   integrity sha512-483XLLxTVIwWK3QTrMGRqUfUpoOs/0hbQrl2oz4J0pAcm3A3bu84wxTFqGqkJzewCLdME38xJLJAxBABfQT8sQ==
+
+fsevents@~2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.1.2.tgz#4c0a1fb34bc68e543b4b82a9ec392bfbda840805"
+  integrity sha512-R4wDiBwZ0KzpgOWetKDug1FZcYhqYnUYKtfZYt4mD5SBz76q0KR4Q9o7GIPamsVPGmW3EYPPJ0dOOjvx32ldZA==
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -1132,11 +1122,6 @@ regjsparser@^0.1.4:
   dependencies:
     jsesc "~0.5.0"
 
-reserved-words@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/reserved-words/-/reserved-words-0.1.2.tgz#00a0940f98cd501aeaaac316411d9adc52b31ab1"
-  integrity sha1-AKCUD5jNUBrqqsMWQR2a3FKzGrE=
-
 resolve-from@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-3.0.0.tgz#b22c7af7d9d6881bc8b6e653335eebcb0a188748"
@@ -1159,10 +1144,10 @@ rgba-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
   integrity sha1-QzdOLiyglosO8VI0YLfXMP8i7rM=
 
-rollup-plugin-postcss@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-postcss/-/rollup-plugin-postcss-2.0.3.tgz#1fd5b7e1fc7545cb0084d9c99d11b259e41a05e6"
-  integrity sha512-d12oKl6za/GGXmlytzVPzzTdPCKgti/Kq2kNhtfm5vv9hkNbyrTvizMBm6zZ5rRWX/sIWl3znjIJ8xy6Hofoeg==
+rollup-plugin-postcss@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-postcss/-/rollup-plugin-postcss-2.4.1.tgz#c6ba84dea7a29ed00ce5ddf0d333f9efd96283df"
+  integrity sha512-wlx8V/ic0bTlVXITWKyhDRuOyQiIdVewM2+KP+tKu2Y9j559uoTsk9F6oXFvyaXA5LiYv3VuOH7cjhRHLR2Ocg==
   dependencies:
     chalk "^2.4.2"
     concat-with-sourcemaps "^1.0.5"
@@ -1174,9 +1159,9 @@ rollup-plugin-postcss@^2.0.3:
     postcss-load-config "^2.0.0"
     postcss-modules "^1.4.1"
     promise.series "^0.2.0"
-    reserved-words "^0.1.2"
     resolve "^1.5.0"
     rollup-pluginutils "^2.0.1"
+    safe-identifier "^0.3.1"
     style-inject "^0.3.0"
 
 rollup-pluginutils@^2.0.1:
@@ -1186,14 +1171,17 @@ rollup-pluginutils@^2.0.1:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@^1.28.0:
-  version "1.28.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.28.0.tgz#d576a6a0fd7490b2e1f531ef8b411795fb80da87"
-  integrity sha512-v2J/DmQi9+Nf6frGqzwZRvbiuTTrqH0yzoUF4Eybf8sONT4UpLZzJYnYzW96Zm9X1+4SJmijfnFBWCzHDAXYnQ==
-  dependencies:
-    "@types/estree" "*"
-    "@types/node" "*"
-    acorn "^7.1.0"
+rollup@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.0.6.tgz#865d6bb15a28cff3429ea1dc57236013661cb9de"
+  integrity sha512-P42IlI6a/bxh52ed8hEXXe44LcHfep2f26OZybMJPN1TTQftibvQEl3CWeOmJrzqGbFxOA000QXDWO9WJaOQpA==
+  optionalDependencies:
+    fsevents "~2.1.2"
+
+safe-identifier@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/safe-identifier/-/safe-identifier-0.3.1.tgz#466b956ef8558b10bbe15b87fedf470ab283cd39"
+  integrity sha512-+vr9lVsmciuoP1fz8w30qDcohwH2S/tb5dPGQ8zHmG9jQf7YHU2fIKGxxcDpeY38J0Dep+DdPMz8FszVZT0Mbw==
 
 sax@~1.2.4:
   version "1.2.4"
