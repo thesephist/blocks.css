@@ -32,5 +32,6 @@ Using **blocks.css** in your website or app? Make a pull request to add yours to
 - [Lyrics.rip](https://lyrics.rip): uses Markov chains to generate lyrics for any artist with the Genius API
 - [ZeroToCode.org](https://zerotocode.org): a place for beginner coders to learn to make stuff on the web
 - [Ink programming language sandbox](https://linus.zone/eval): a sandboxed playground for the [Ink programming language](https://github.com/thesephist/ink)
+- [Quarantine Resume](https://www.quarantineresu.me): A place to create a resume and showcase all the stuff you did during the 2020 coronavirus pandemic
 
 [![Edit on Repl.it](https://repl-badge.jajoosam.repl.co/edit.png)](https://repl.it/github/https://github.com/thesephist/blocks.css?lang=html&ref=button)
