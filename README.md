@@ -35,5 +35,6 @@ Using **blocks.css** in your website or app? Make a pull request to add yours to
 - [Quarantine Resume](https://www.quarantineresu.me): A place to create a resume and showcase all the stuff you did during the 2020 coronavirus pandemic
 - [Pkgreview.dev](https://pkgreview.dev): a platform for developers to rate on NPM packages
 - [Own2020s.com](https://own2020s.com): Visualize the time you can save by cutting down on a habit
+- [LinuxDeveloper.io](https://linuxdeveloper.io): Personal portfolio website
 
 [![Edit on Repl.it](https://repl-badge.jajoosam.repl.co/edit.png)](https://repl.it/github/https://github.com/thesephist/blocks.css?lang=html&ref=button)
