@@ -42,5 +42,6 @@ Using **blocks.css** in your website or app? Make a pull request to add yours to
 - [Pkgreview.dev](https://pkgreview.dev): a platform for developers to rate on NPM packages
 - [Own2020s.com](https://own2020s.com): Visualize the time you can save by cutting down on a habit
 - [LinuxDeveloper.io](https://linuxdeveloper.io): Personal portfolio website
+- [P2Pdoc](https://p2pdoc.glitch.me/): P2Pdoc allows you to create a document and then upload it to the distributed web via IPFS
 
 [![Edit on Repl.it](https://repl-badge.jajoosam.repl.co/edit.png)](https://repl.it/github/https://github.com/thesephist/blocks.css?lang=html&ref=button)
