@@ -14,7 +14,7 @@ Start by adding the blocks.css stylesheet to your page's `<head>`:
 
 ## Summary
 
-**blocks.css** is the core of styles used in my projects like [Codeframe](https://beta.codeframe.co), [Zero to Code](https://zerotocode.org), and [Lyrics.rip](https://genius.com/a/a-teen-programmer-built-a-tool-called-lyrics-rip-to-generate-fake-lyrics-for-your-favorite-artists). Lots of people asked for the styles, so I've pulled the button styles out into a separate package right here.
+**blocks.css** is the core of styles used in my projects like [Codeframe](https://codeframe.co), [Zero to Code](https://zerotocode.org), and [Lyrics.rip](https://genius.com/a/a-teen-programmer-built-a-tool-called-lyrics-rip-to-generate-fake-lyrics-for-your-favorite-artists). Lots of people asked for the styles, so I've pulled the button styles out into a separate package right here.
 
 ## Theming
 
