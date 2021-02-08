@@ -45,11 +45,12 @@ body {
   background: var(--block-background-color);
   border: 3px solid var(--block-text-color);
   border-radius: 3px;
+  box-sizing: border-box;
   position: absolute;
   top: -3px;
   left: -3px;
-  height: 100%;
-  width: 100%;
+  height: calc(100% + 5px);
+  width: calc(100% + 5px);
   z-index: -1;
 }
 
@@ -61,11 +62,12 @@ body {
 .block::after {
   content: "";
   display: block;
+  box-sizing: border-box;
   background: var(--block-shadow-color);
   border: 3px solid var(--block-text-color);
   border-radius: 3px;
-  height: 100%;
-  width: 100%;
+  height: calc(100% + 5px);
+  width: calc(100% + 5px);
   position: absolute;
   top: 3px;
   left: 3px;
