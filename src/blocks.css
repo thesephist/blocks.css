@@ -95,7 +95,7 @@ body {
 }
 
 .block.fixed {
-  cursor: initial;
+  cursor: initial !important;
 }
 
 /* FIXED STYLES */
@@ -108,7 +108,7 @@ body {
 .block.fixed:focus,
 .block.fixed:focus::before,
 .block.fixed:focus::after {
-  transform: none;
+  transform: none !important;
 }
 
 /* ACCENT STYLES */
